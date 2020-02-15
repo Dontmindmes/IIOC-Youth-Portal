@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+   <!-- Add meta tags for mobile and IE -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   <style>
+      body {
+      font-family: 'Roboto';font-size: 20px;
+      }
+   </style>
+   <style>
+      .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #3C8272;
+      color: white;
+      text-align: center;
+      }
+   </style>
+   <title>Youth Camp</title>
+</head>
+<body>
+   <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+      </nav>
+   </div>
+   <script type="text/javascript">
+      function PopUp(hideOrshow) {
+          if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+          else document.getElementById('ac-wrapper').removeAttribute('style');
+      }
+      window.onload = function () {
+          setTimeout(function () {
+              PopUp('show');
+          }, 0);
+      }
+   </script>
+   <center>
+      </br>
+      <img src="https://www.iioc.com/wp-content/uploads/2020/02/logo.png" alt="Italian Trulli">
+      </br></br>
+      <h2><font color="#3C8272">
+         WINTER RETREAT PURCHASE PORTAL</font>
+      </h2>
+      <!-- Set up a container element for the button -->
+      <div id="paypal-button-container"></div>
+      </br>
+      <!-- Include the PayPal JavaScript SDK -->
+      <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal" />
+   </center>
+   <div id="ac-wrapper" style='display:none'>
+      </br>
+      </br>
+      </br>
+      <div id="popup">
+         <center>
+            <h3>
+            You have until 02/14/20 to purchase</32>    
+         </center>
+      </div>
+   </div>
+   </br>
+   <div class="footer">
+      <p><small>Page developed and created by Shadi & Abusham</small></p>
+   </div>
+</body>
